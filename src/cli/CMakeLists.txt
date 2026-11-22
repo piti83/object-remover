@@ -1,0 +1,3 @@
+add_executable(object_remover_cli main.cpp)
+target_link_libraries(object_remover_cli PRIVATE object_remover_core)
+set_target_properties(object_remover_cli PROPERTIES OUTPUT_NAME object-remover)
