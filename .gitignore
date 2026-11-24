@@ -11,3 +11,8 @@ compile_commands.json
 # Program output
 results/*
 !results/README.md
+
+# Python prototype
+prototype/.venv/
+prototype/out/
+__pycache__/
